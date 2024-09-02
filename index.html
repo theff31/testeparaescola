@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClenCare - Skincare Econômico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ClenCare</h1>
+        <nav>
+            <ul>
+                <li><a href="#skincare">Skincare Econômico</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="skincare">
+        <h2>Rotina de Skincare Econômica</h2>
+        <div class="steps">
+            <div class="step" onclick="showDetails('step1')">
+                <h3>1. Limpeza com Sabonete Neutro</h3>
+                <img src="images/sabonete.png" alt="Sabonete Neutro">
+                <p>Limpe seu rosto com um sabonete neutro para remover impurezas e excesso de oleosidade.</p>
+                <div class="details" id="step1">
+                    <p>Escolha um sabonete sem fragrância e com pH balanceado para não irritar a pele.</p>
+                </div>
+            </div>
+            <div class="step" onclick="showDetails('step2')">
+                <h3>2. Tônico Facial</h3>
+                <img src="images/tonico.png" alt="Tônico Facial">
+                <p>Use um tônico para equilibrar o pH da pele e preparar para a hidratação.</p>
+                <div class="details" id="step2">
+                    <p>Opte por um tônico suave, ideal para a sua tipo de pele.</p>
+                </div>
+            </div>
+            <div class="step" onclick="showDetails('step3')">
+                <h3>3. Hidratante</h3>
+                <img src="images/hidratante.png" alt="Hidratante">
+                <p>Aplique um hidratante para manter a pele macia e evitar ressecamento.</p>
+                <div class="details" id="step3">
+                    <p>Escolha um hidratante com ingredientes simples e econômicos, como glicerina.</p>
+                </div>
+            </div>
+            <div class="step" onclick="showDetails('step4')">
+                <h3>4. Protetor Solar</h3>
+                <img src="images/protetor.png" alt="Protetor Solar">
+                <p>Finalize com protetor solar para proteger sua pele dos danos solares.</p>
+                <div class="details" id="step4">
+                    <p>Um protetor solar com fator de proteção 30 já é suficiente para a maioria das pessoas.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ClenCare. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
